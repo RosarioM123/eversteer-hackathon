@@ -1,0 +1,14 @@
+Loading live data...
+Live: 23672 rows
+Loading negated E1...
+Generating predictions...
+Preds type: <class 'pandas.core.frame.DataFrame'>
+Shape: (23672, 1)
+                  prediction
+id                          
+048f57e75f98c212    0.483351
+cfe3936f187df973    0.508223
+213c8a9400c228a6    0.439991
+1d1faf47842b4f8f    0.498840
+fad91bf6da232450    0.505820
+EXIT:$?

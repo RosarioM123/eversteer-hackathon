@@ -1,0 +1,8 @@
+loading...
+features: 178 total, 158 kept; val expeds: 261 (exped_6566..exped_6826)
+train window rows: 255502 (exped_3500..exped_6524)
+trained (97s)
+validation targets: all blank=False
+wrote /home/hatch/workspace/everesteer_research/final/final_excl20_neut20.csv rows=23886 mean=0.0083 std=0.0119 range=(0.0000,0.0825) (101s)
+REBUILD DONE
+EXIT:0

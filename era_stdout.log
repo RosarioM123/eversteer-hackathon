@@ -1,0 +1,10 @@
+loading...
+A_all x mid: CORR=0.1520 AIMC=0.01334 BLEND*=0.1787 (11s)
+A_all x recent: CORR=0.0412 AIMC=-0.00055 BLEND*=0.0401 (11s)
+C_recent50 x mid: CORR=0.1809 AIMC=0.02406 BLEND*=0.2290 (6s)
+C_recent50 x recent: CORR=0.0351 AIMC=-0.00219 BLEND*=0.0307 (5s)
+E_nosparse x mid: CORR=0.1549 AIMC=0.01516 BLEND*=0.1853 (7s)
+E_nosparse x recent: CORR=0.0421 AIMC=-0.00098 BLEND*=0.0402 (7s)
+test block mid: window ranking by BLEND*: ['C_recent50', 'E_nosparse', 'A_all']
+test block recent: window ranking by BLEND*: ['E_nosparse', 'A_all', 'C_recent50']
+ERA DONE

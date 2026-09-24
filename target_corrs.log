@@ -1,0 +1,17 @@
+Loading targets...
+Correlation with target_everest:
+  target_Tiskiouine: 0.1908
+  target_Saghro: 0.2509
+  target_Gourza: 0.2601
+  target_Ayachi: 0.2918
+  target_Azurki: 0.3438
+  target_Anghomar: 0.3888
+  target_Bougafer: 0.4143
+  target_Igli: 0.4182
+  target_Tarhat: 0.4650
+  target_Ighil: 0.4889
+  target_Timesguida: 0.5636
+  target_Meltsene: 0.5967
+  target_Ghat: 0.6035
+  target_Tougroute: 0.8354
+EXIT:$?

@@ -1,0 +1,26 @@
+{
+ "A_early": {
+  "n_sel": 11,
+  "corr": -0.0373,
+  "aimc": -0.01017,
+  "blend_no_ncorr": -0.0576,
+  "corr_sherpa": -0.0124,
+  "runtime_s": 2.8
+ },
+ "B_mid": {
+  "n_sel": 14,
+  "corr": -0.0287,
+  "aimc": -0.00921,
+  "blend_no_ncorr": -0.0472,
+  "corr_sherpa": 0.0199,
+  "runtime_s": 4.1
+ },
+ "C_recent": {
+  "n_sel": 11,
+  "corr": -0.0036,
+  "aimc": -0.00098,
+  "blend_no_ncorr": -0.0056,
+  "corr_sherpa": 0.0626,
+  "runtime_s": 6.2
+ }
+}

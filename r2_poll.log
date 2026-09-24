@@ -1,0 +1,7 @@
+Poll 1: phase=round_2_opening, live_data=False
+Poll 2: phase=round_2_opening, live_data=False
+Poll 3: phase=round_2_opening, live_data=False
+Poll 4: phase=round_2, live_data=True
+Live data available! Downloading...
+Download result: /home/hatch/workspace/everesteer_research/futures_live_r2.parquet
+EXIT:$?

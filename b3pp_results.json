@@ -1,0 +1,26 @@
+{
+ "A_early": {
+  "corr": -0.0508,
+  "aimc": -0.01162,
+  "blend_no_ncorr": -0.0741,
+  "corr_sherpa": -0.0659,
+  "pooled_beta": 0.1,
+  "runtime_s": 4.2
+ },
+ "B_mid": {
+  "corr": -0.0319,
+  "aimc": -0.00562,
+  "blend_no_ncorr": -0.0431,
+  "corr_sherpa": -0.0817,
+  "pooled_beta": 0.0893,
+  "runtime_s": 7.8
+ },
+ "C_recent": {
+  "corr": -0.0099,
+  "aimc": -0.0007,
+  "blend_no_ncorr": -0.0113,
+  "corr_sherpa": -0.0049,
+  "pooled_beta": 0.0994,
+  "runtime_s": 10.7
+ }
+}

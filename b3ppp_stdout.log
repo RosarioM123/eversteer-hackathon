@@ -1,0 +1,8 @@
+loading...
+/home/hatch/workspace/everesteer_research/b3ppp.py:47: RuntimeWarning: invalid value encountered in divide
+  return np.where((sx > 0) & (sy > 0) & (n > 1000), cov / (sx * sy), 0.0)
+A_early: n=11 CORR=-0.0373 AIMC=-0.01017 BLEND*=-0.0576 corr_sherpa=-0.0124 (3s)
+B_mid: n=14 CORR=-0.0287 AIMC=-0.00921 BLEND*=-0.0472 corr_sherpa=0.0199 (4s)
+C_recent: n=11 CORR=-0.0036 AIMC=-0.00098 BLEND*=-0.0056 corr_sherpa=0.0626 (6s)
+B3PPP DONE
+EXIT:0

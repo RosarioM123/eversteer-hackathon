@@ -1,0 +1,14 @@
+Training on 5 diverse targets...
+X: (418354, 178)
+  target_Tiskiouine: 402394 rows
+  target_Tiskiouine done (52s)
+  target_Saghro: 402394 rows
+  target_Saghro done (112s)
+  target_Gourza: 403302 rows
+  target_Gourza done (174s)
+  target_Ayachi: 415913 rows
+  target_Ayachi done (228s)
+  target_Azurki: 416991 rows
+  target_Azurki done (288s)
+Saved (288s)
+EXIT:0

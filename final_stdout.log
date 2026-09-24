@@ -1,0 +1,10 @@
+loading...
+stage1 train 352172 test 62387 (680 expeds)
+HOLDOUT E1: CORR=0.0826 pcorr_b1b2=0.6997 top10_gain_share=0.168
+pred dist: mean=0.5011 std=0.0385 min=0.3219 max=0.6595
+stage2 train 418354 -> validation 23886
+wrote final_blend.csv n=23886 mean=0.4995 std=0.0386
+wrote final_b1_ridge.csv n=23886 mean=0.5005 std=0.0410
+wrote final_b2_lgbm.csv n=23886 mean=0.4985 std=0.0411
+FINAL BUILD DONE
+EXIT:0

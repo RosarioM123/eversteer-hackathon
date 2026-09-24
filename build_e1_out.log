@@ -1,0 +1,5 @@
+train rows=418354 features=178
+ridge done (13s)
+lgbm done (54s)
+wrote e1_predict.pkl (54s)
+EXIT:0

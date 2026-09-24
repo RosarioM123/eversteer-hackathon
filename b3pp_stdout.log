@@ -1,0 +1,8 @@
+loading...
+/usr/lib/python3/dist-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+A_early: CORR=-0.0508 AIMC=-0.01162 BLEND*=-0.0741 corr_sherpa=-0.0659 beta=0.1000 (4s)
+B_mid: CORR=-0.0319 AIMC=-0.00562 BLEND*=-0.0431 corr_sherpa=-0.0817 beta=0.0893 (8s)
+C_recent: CORR=-0.0099 AIMC=-0.00070 BLEND*=-0.0113 corr_sherpa=-0.0049 beta=0.0994 (11s)
+B3PP DONE
+EXIT:0

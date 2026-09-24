@@ -1,0 +1,27 @@
+train expeds: 6522 val expeds: 261 overlap: 0
+train exped range: exped_0003 - exped_6524
+val exped range: exped_6566 - exped_6826
+
+Top 15 shifted features (train-recent vs val), in std units:
+  feature_Imilchil: shift=0.02 mean 4.551->4.503 std 2.862->2.872 na 0.046->0.018
+  feature_Itzer: shift=0.02 mean 4.551->4.504 std 2.862->2.872 na 0.046->0.018
+  feature_Mssici: shift=0.02 mean 4.551->4.505 std 2.862->2.871 na 0.046->0.018
+  feature_Agdz: shift=0.02 mean 4.551->4.505 std 2.862->2.871 na 0.046->0.018
+  feature_Rich: shift=0.02 mean 4.551->4.507 std 2.862->2.870 na 0.046->0.018
+  feature_Rheris: shift=0.02 mean 4.549->4.505 std 2.862->2.873 na 0.044->0.016
+  feature_Amazigh: shift=0.01 mean 4.549->4.510 std 2.862->2.873 na 0.044->0.016
+  feature_Sebou: shift=0.01 mean 4.559->4.520 std 2.877->2.883 na 0.043->0.016
+  feature_Tagmat: shift=0.01 mean 4.525->4.558 std 2.867->2.876 na 0.023->0.000
+  feature_Mzik: shift=0.01 mean 4.551->4.518 std 2.865->2.864 na 0.048->0.021
+  feature_Tiguelmamine: shift=0.01 mean 4.551->4.519 std 2.865->2.864 na 0.048->0.021
+  feature_Amtoudi: shift=0.01 mean 4.554->4.523 std 2.871->2.886 na 0.043->0.016
+  feature_Anzal: shift=0.01 mean 4.551->4.520 std 2.865->2.863 na 0.048->0.021
+  feature_Zawyat: shift=0.01 mean 4.533->4.558 std 2.866->2.891 na 0.025->0.009
+  feature_Tafoughalt: shift=0.01 mean 4.529->4.554 std 2.874->2.882 na 0.021->0.000
+
+Median abs shift: 0.00 std; max: 0.02
+Median na-rate train: 0.022 val: 0.003
+
+target_everest train-recent: mean=0.5000 std=0.2273
+rows/exped train-recent: 92.0 val: 91.5
+EXIT:0

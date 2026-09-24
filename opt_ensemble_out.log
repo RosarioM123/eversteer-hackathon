@@ -1,0 +1,12 @@
+train 352172 test 62387
+lgbm_a done
+lgbm_b done
+lgbm_c done
+individual: {'ridge': 0.0576, 'lgbm_a': 0.0799, 'lgbm_b': 0.0889, 'lgbm_c': 0.1017}
+BEST: 0.1019 {'ridge': 0.0, 'lgbm_a': 0.0, 'lgbm_b': 0.2, 'lgbm_c': 0.8}
+ridge 0.3 + lgbm_a: 0.0795
+ridge 0.4 + lgbm_a: 0.0793
+ridge 0.5 + lgbm_a: 0.0782
+ridge 0.6 + lgbm_a: 0.0752
+ridge 0.7 + lgbm_a: 0.0720
+EXIT:0

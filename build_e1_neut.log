@@ -1,0 +1,15 @@
+train rows=418354 features=178
+ridge done (33s)
+lgbm done (208s)
+val rows=23886 expeds=261
+Traceback (most recent call last):
+  File "/home/hatch/workspace/everesteer_research/build_e1_neut.py", line 82, in <module>
+    preds = _neutralize_and_rank(val)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/everesteer_research/build_e1_neut.py", line 61, in _neutralize_and_rank
+    F = _imp(live_features[NEUT_FEATS].values.astype(np.float32))  # median-imputed, no NaNs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/everesteer_research/build_e1_neut.py", line 37, in _imp
+    return np.where(np.isnan(b), _med, b)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: operands could not be broadcast together with shapes (23886,5) (178,) (23886,5) 

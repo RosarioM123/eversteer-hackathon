@@ -1,0 +1,179 @@
+{
+ "folds": {
+  "A_early": {
+   "train": [
+    0,
+    1999
+   ],
+   "test": [
+    2042,
+    2641
+   ]
+  },
+  "B_mid": {
+   "train": [
+    0,
+    3599
+   ],
+   "test": [
+    3642,
+    4241
+   ]
+  },
+  "C_recent": {
+   "train": [
+    0,
+    5199
+   ],
+   "test": [
+    5242,
+    5841
+   ]
+  }
+ },
+ "runs": {
+  "A_early": {
+   "B0": {
+    "corr": 0.0,
+    "aimc": 0.0,
+    "proxy_ncorr": 0.0,
+    "blend": 0.0,
+    "corr_sherpa": 0.0,
+    "runtime_s": 0.0,
+    "n_test": 40005
+   },
+   "B1": {
+    "corr": 0.0118,
+    "aimc": -0.00995,
+    "proxy_ncorr": -0.0243,
+    "blend": -0.0323,
+    "corr_sherpa": 0.3657,
+    "runtime_s": 1.9,
+    "n_test": 40005
+   },
+   "B2": {
+    "corr": 0.031,
+    "aimc": -0.00187,
+    "proxy_ncorr": -0.0157,
+    "blend": 0.0116,
+    "corr_sherpa": 0.242,
+    "runtime_s": 11.2,
+    "n_test": 40005
+   },
+   "B3": {
+    "corr": -0.0413,
+    "aimc": -0.00745,
+    "proxy_ncorr": -0.0259,
+    "blend": -0.0821,
+    "corr_sherpa": -0.1299,
+    "runtime_s": 2.2,
+    "n_test": 40005
+   }
+  },
+  "B_mid": {
+   "B0": {
+    "corr": 0.0,
+    "aimc": 0.0,
+    "proxy_ncorr": 0.0,
+    "blend": 0.0,
+    "corr_sherpa": 0.0,
+    "runtime_s": 0.0,
+    "n_test": 45830
+   },
+   "B1": {
+    "corr": 0.0505,
+    "aimc": -0.00431,
+    "proxy_ncorr": 0.0015,
+    "blend": 0.0433,
+    "corr_sherpa": 0.4332,
+    "runtime_s": 4.2,
+    "n_test": 45830
+   },
+   "B2": {
+    "corr": 0.0627,
+    "aimc": 0.0005,
+    "proxy_ncorr": 0.0114,
+    "blend": 0.0751,
+    "corr_sherpa": 0.256,
+    "runtime_s": 21.2,
+    "n_test": 45830
+   },
+   "B3": {
+    "corr": -0.0321,
+    "aimc": -0.00563,
+    "proxy_ncorr": -0.004,
+    "blend": -0.0473,
+    "corr_sherpa": -0.1043,
+    "runtime_s": 4.7,
+    "n_test": 45830
+   }
+  },
+  "C_recent": {
+   "B0": {
+    "corr": 0.0,
+    "aimc": 0.0,
+    "proxy_ncorr": 0.0,
+    "blend": 0.0,
+    "corr_sherpa": 0.0,
+    "runtime_s": 0.0,
+    "n_test": 53053
+   },
+   "B1": {
+    "corr": 0.0412,
+    "aimc": -0.00055,
+    "proxy_ncorr": -0.0235,
+    "blend": 0.0166,
+    "corr_sherpa": 0.6391,
+    "runtime_s": 7.1,
+    "n_test": 53053
+   },
+   "B2": {
+    "corr": 0.0442,
+    "aimc": 0.00134,
+    "proxy_ncorr": -0.0129,
+    "blend": 0.034,
+    "corr_sherpa": 0.5684,
+    "runtime_s": 30.3,
+    "n_test": 53053
+   },
+   "B3": {
+    "corr": -0.0093,
+    "aimc": 0.00032,
+    "proxy_ncorr": -0.0279,
+    "blend": -0.0365,
+    "corr_sherpa": -0.0441,
+    "runtime_s": 7.1,
+    "n_test": 53053
+   }
+  }
+ },
+ "pred_corr": {
+  "A_early": {
+   "B0_vs_B1": 0.0,
+   "B0_vs_B2": 0.0,
+   "B0_vs_B3": 0.0,
+   "B1_vs_B2": 0.588,
+   "B1_vs_B3": 0.8322,
+   "B2_vs_B3": 0.4578
+  },
+  "B_mid": {
+   "B0_vs_B1": 0.0,
+   "B0_vs_B2": 0.0,
+   "B0_vs_B3": 0.0,
+   "B1_vs_B2": 0.6356,
+   "B1_vs_B3": 0.805,
+   "B2_vs_B3": 0.5373
+  },
+  "C_recent": {
+   "B0_vs_B1": 0.0,
+   "B0_vs_B2": 0.0,
+   "B0_vs_B3": 0.0,
+   "B1_vs_B2": 0.7372,
+   "B1_vs_B3": 0.7083,
+   "B2_vs_B3": 0.4376
+  }
+ },
+ "notes": [
+  "final holdout exped orders 5842-6521 untouched"
+ ]
+}

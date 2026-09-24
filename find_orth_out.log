@@ -1,0 +1,30 @@
+rows 418354
+resid std: 0.2253
+  30/178
+  60/178
+  90/178
+  120/178
+  150/178
+Top 20 orthogonal-alpha features:
+  feature_Agouti: 0.0899
+  feature_Tazzarine: 0.0888
+  feature_Takerkoust: 0.0844
+  feature_Azzaden: -0.0721
+  feature_Amazigh: -0.0711
+  feature_Midelt: 0.0696
+  feature_Zerrouka: 0.0694
+  feature_Amane: 0.0690
+  feature_Tafraout: -0.0686
+  feature_Boutferda: 0.0685
+  feature_Ighzer: -0.0681
+  feature_Iferd: -0.0659
+  feature_Tarhzirt: -0.0658
+  feature_Tanaghmelt: 0.0629
+  feature_Ouarzazate: -0.0612
+  feature_Rich: -0.0605
+  feature_Azaghar: -0.0601
+  feature_Tagmat: -0.0566
+  feature_Chefchaouen: -0.0562
+  feature_Tagoudiche: 0.0555
+done (93s)
+EXIT:0

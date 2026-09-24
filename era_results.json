@@ -1,0 +1,63 @@
+{
+ "estimator": "ridge",
+ "windows": {
+  "A_all": {
+   "mid": {
+    "corr": 0.152,
+    "aimc": 0.01334,
+    "blend_no_ncorr": 0.1787,
+    "corr_sherpa": 0.6717,
+    "n_tr": 349198,
+    "runtime_s": 10.7
+   },
+   "recent": {
+    "corr": 0.0412,
+    "aimc": -0.00055,
+    "blend_no_ncorr": 0.0401,
+    "corr_sherpa": 0.6391,
+    "n_tr": 349198,
+    "runtime_s": 11.2
+   }
+  },
+  "C_recent50": {
+   "mid": {
+    "corr": 0.1809,
+    "aimc": 0.02406,
+    "blend_no_ncorr": 0.229,
+    "corr_sherpa": 0.5523,
+    "n_tr": 199432,
+    "runtime_s": 6.3
+   },
+   "recent": {
+    "corr": 0.0351,
+    "aimc": -0.00219,
+    "blend_no_ncorr": 0.0307,
+    "corr_sherpa": 0.5986,
+    "n_tr": 199432,
+    "runtime_s": 4.8
+   }
+  },
+  "E_nosparse": {
+   "mid": {
+    "corr": 0.1549,
+    "aimc": 0.01516,
+    "blend_no_ncorr": 0.1853,
+    "corr_sherpa": 0.6437,
+    "n_tr": 299316,
+    "runtime_s": 6.7
+   },
+   "recent": {
+    "corr": 0.0421,
+    "aimc": -0.00098,
+    "blend_no_ncorr": 0.0402,
+    "corr_sherpa": 0.6466,
+    "n_tr": 299316,
+    "runtime_s": 6.8
+   }
+  }
+ },
+ "notes": [
+  "test block mid: window ranking by BLEND*: ['C_recent50', 'E_nosparse', 'A_all']",
+  "test block recent: window ranking by BLEND*: ['E_nosparse', 'A_all', 'C_recent50']"
+ ]
+}

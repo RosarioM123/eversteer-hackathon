@@ -1,0 +1,10 @@
+Loading data...
+Features: 178
+Train rows (exped 3500+): 255502
+Features after exclusion: 158
+Training pure LGBM (0.1115 recipe)...
+Training done.
+Generating validation predictions...
+Saved: mean=0.5055, std=0.2887
+Saved pure_lgbm_predict.pkl
+EXIT:0

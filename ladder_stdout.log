@@ -1,0 +1,31 @@
+loading train...
+train (468236, 196), features 178, sherpa joined. load 1s
+--- fold A_early ---
+train rows 110097, test rows 40005, test expeds 600
+/usr/lib/python3/dist-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+/home/hatch/workspace/everesteer_research/ladder.py:92: RuntimeWarning: invalid value encountered in divide
+  corr = np.where(den > 0, (Xc * yc[:, None]).sum(0) / den, 0.0)
+B0: CORR=0.0000 AIMC=0.00000 pNCORR=0.0000 BLEND=0.0000 corr_sherpa=0.0000 (0s)
+B1: CORR=0.0118 AIMC=-0.00995 pNCORR=-0.0243 BLEND=-0.0323 corr_sherpa=0.3657 (2s)
+B2: CORR=0.0310 AIMC=-0.00187 pNCORR=-0.0157 BLEND=0.0116 corr_sherpa=0.2420 (11s)
+/usr/lib/python3/dist-packages/numpy/lib/nanfunctions.py:1217: RuntimeWarning: All-NaN slice encountered
+  return function_base._ureduce(a, func=_nanmedian, keepdims=keepdims,
+B3: CORR=-0.0413 AIMC=-0.00745 pNCORR=-0.0259 BLEND=-0.0821 corr_sherpa=-0.1299 (2s)
+pred_corr A_early: {'B0_vs_B1': 0.0, 'B0_vs_B2': 0.0, 'B0_vs_B3': 0.0, 'B1_vs_B2': 0.588, 'B1_vs_B3': 0.8322, 'B2_vs_B3': 0.4578}
+--- fold B_mid ---
+train rows 220042, test rows 45830, test expeds 600
+B0: CORR=0.0000 AIMC=0.00000 pNCORR=0.0000 BLEND=0.0000 corr_sherpa=0.0000 (0s)
+B1: CORR=0.0505 AIMC=-0.00431 pNCORR=0.0015 BLEND=0.0433 corr_sherpa=0.4332 (4s)
+B2: CORR=0.0627 AIMC=0.00050 pNCORR=0.0114 BLEND=0.0751 corr_sherpa=0.2560 (21s)
+B3: CORR=-0.0321 AIMC=-0.00563 pNCORR=-0.0040 BLEND=-0.0473 corr_sherpa=-0.1043 (5s)
+pred_corr B_mid: {'B0_vs_B1': 0.0, 'B0_vs_B2': 0.0, 'B0_vs_B3': 0.0, 'B1_vs_B2': 0.6356, 'B1_vs_B3': 0.805, 'B2_vs_B3': 0.5373}
+--- fold C_recent ---
+train rows 349198, test rows 53053, test expeds 600
+B0: CORR=0.0000 AIMC=0.00000 pNCORR=0.0000 BLEND=0.0000 corr_sherpa=0.0000 (0s)
+B1: CORR=0.0412 AIMC=-0.00055 pNCORR=-0.0235 BLEND=0.0166 corr_sherpa=0.6391 (7s)
+B2: CORR=0.0442 AIMC=0.00134 pNCORR=-0.0129 BLEND=0.0340 corr_sherpa=0.5684 (30s)
+B3: CORR=-0.0093 AIMC=0.00032 pNCORR=-0.0279 BLEND=-0.0365 corr_sherpa=-0.0441 (7s)
+pred_corr C_recent: {'B0_vs_B1': 0.0, 'B0_vs_B2': 0.0, 'B0_vs_B3': 0.0, 'B1_vs_B2': 0.7372, 'B1_vs_B3': 0.7083, 'B2_vs_B3': 0.4376}
+DONE total 143s
+EXIT:0

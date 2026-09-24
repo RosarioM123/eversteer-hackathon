@@ -1,0 +1,10 @@
+loading train...
+train rows=418354 features=178
+ridge done (13s)
+lgbm done (70s)
+wrote e1_7030_predict.pkl (70s)
+loading validation + generating predictions via callable...
+val rows=23886 expeds=261
+wrote e1_7030_raw.csv n=23886 mean=0.5055 std=0.2887 min=0.0109 max=1.0000
+DONE (70s)
+EXIT:0

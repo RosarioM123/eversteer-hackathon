@@ -1,0 +1,4 @@
+train<=5000 test[5000-5500]: n_expeds=501 mean_rank_corr=0.0725 frac_pos=0.61
+train<=5500 test[5500-6000]: n_expeds=501 mean_rank_corr=0.0657 frac_pos=0.67
+train<=6000 test[6000-6521]: n_expeds=522 mean_rank_corr=0.0677 frac_pos=0.68
+EXIT:0

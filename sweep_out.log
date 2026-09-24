@@ -1,0 +1,18 @@
+c_baseline: CORR=0.1017
+lr001_500: CORR=0.1101
+leaves63: CORR=0.0961
+subsample: CORR=0.0937
+[LightGBM] [Fatal] Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.
+Traceback (most recent call last):
+  File "/home/hatch/workspace/everesteer_research/sweep_lgbm.py", line 45, in <module>
+    m = lgb.train(params, dset, rounds)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/lightgbm/engine.py", line 243, in train
+    train_set._update_params(params)._set_predictor(predictor)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/lightgbm/basic.py", line 2766, in _update_params
+    raise LightGBMError(_LIB.LGBM_GetLastError().decode("utf-8"))
+lightgbm.basic.LightGBMError: Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.
+EXIT:1

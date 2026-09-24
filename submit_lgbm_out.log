@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/httpx/_urlparse.py", line 409, in normalize_port
+    port_as_int = int(port)
+                  ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ':1]'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "/usr/local/lib/python3.12/dist-packages/everestapi/client.py", line 294, in __init__
+    self._client = httpx.Client(**client_kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/httpx/_client.py", line 698, in __init__
+    URLPattern(key): None
+    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/httpx/_utils.py", line 172, in __init__
+    url = URL(pattern)
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/httpx/_urls.py", line 117, in __init__
+    self._uri_reference = urlparse(url, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/httpx/_urlparse.py", line 321, in urlparse
+    parsed_port: int | None = normalize_port(port, scheme)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/httpx/_urlparse.py", line 411, in normalize_port
+    raise InvalidURL(f"Invalid port: {port!r}")
+httpx.InvalidURL: Invalid port: ':1]'
+EXIT:1
