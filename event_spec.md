@@ -1,4 +1,4 @@
-# NYC Event Spec — Everesteer Hedge Fund Hackathon (Sept 23, 2026)
+# Event Spec — Everesteer Hedge Fund Hackathon (Sept 23, 2026)
 Status: CONFIRMED from official Everesteer Docs (Everesteer_Docs.pdf, uploaded
 2026-09-23) + platform UI panels. Remaining live values (weights, clip, horizon)
 must be read from the API, never hardcoded.

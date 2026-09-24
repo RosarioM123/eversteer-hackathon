@@ -1,4 +1,4 @@
-# Everesteer NYC — Event Spec Checklist
+# Event Spec Checklist
 Fill this in during the first 30 minutes. No modeling until it's done.
 
 ## Target
