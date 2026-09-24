@@ -58,7 +58,7 @@ class ExperimentRunner:
             raise NoDataSuppliedError(
                 f"Cannot run experiment '{config.name}' without real data. "
                 "This framework does not fabricate results. Supply the actual "
-                "NYC dataset once available."
+                "event dataset once available."
             )
 
         if not self.event_spec.ready_for_modeling():
@@ -70,10 +70,10 @@ class ExperimentRunner:
         # From here on, this is where real fold generation / model fit /
         # metric computation would happen, using the CONFIRMED event_spec
         # and the real `data`. Left unimplemented on purpose - this is a
-        # skeleton, not a place to guess at NYC's actual data shape.
+        # skeleton, not a place to guess at event's actual data shape.
         raise NotImplementedError(
             "Core fit/predict/score loop intentionally left unimplemented "
-            "until real NYC data and confirmed metric formulas are available. "
+            "until real event data and confirmed metric formulas are available. "
             "See metrics/scoring.py and validation/walkforward.py for the "
             "pieces that need to be wired together here."
         )

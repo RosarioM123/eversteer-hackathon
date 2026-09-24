@@ -1,5 +1,5 @@
 """
-Data forensics for the Everesteer NYC labeled split.
+Data forensics for the Everesteer event labeled split.
 Dataset-agnostic: pass file paths and (once known) column names via CLI args.
 With no column names given, it still reports schema, shape, dtypes,
 missingness, duplicates, and per-period structure.

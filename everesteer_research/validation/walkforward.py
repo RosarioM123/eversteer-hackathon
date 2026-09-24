@@ -10,7 +10,7 @@ Rules enforced here (per the research harness requirements):
     holdout, returned separately from the research folds.
 
 This is deliberately generic: it operates on a list/array of exped
-identifiers, not on NYC-specific column names. The caller supplies the
+identifiers, not on event-specific column names. The caller supplies the
 exped column once the real schema is known.
 """
 

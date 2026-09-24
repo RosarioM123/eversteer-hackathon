@@ -1,8 +1,8 @@
 """
-EventSpec: container for every confirmed NYC event rule.
+EventSpec: container for every confirmed event event rule.
 
 NOTHING in this file should be treated as real until it has been verified
-against actual Everesteer NYC documentation/data. Every field starts as
+against actual Everesteer event documentation/data. Every field starts as
 None or "TODO" on purpose.
 
 Do not let a model or experiment run against this until the relevant
@@ -44,7 +44,7 @@ class EventSpec:
     benchmark_column: Optional[str] = None                # TODO: confirm if a benchmark column/file exists
 
     # --- Scoring ---
-    scoring_metrics: List[str] = field(default_factory=list)  # TODO: confirm exact metric names used by NYC
+    scoring_metrics: List[str] = field(default_factory=list)  # TODO: confirm exact metric names used by event
     metric_weights: Dict[str, float] = field(default_factory=dict)  # TODO: confirm current blend weights
     clipping_rules: Optional[str] = None                   # TODO: confirm (what gets clipped, at what value/pctile)
     rank_metric: Optional[str] = None                       # TODO: confirm if different from blended score

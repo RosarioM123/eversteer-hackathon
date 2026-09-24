@@ -1,9 +1,9 @@
-# Everesteer NYC Research Framework (Skeleton)
+# Everesteer event Research Framework (Skeleton)
 
-## Status: PRE-DATA. No NYC dataset, schema, or scoring rules have been confirmed yet.
+## Status: PRE-DATA. No event dataset, schema, or scoring rules have been confirmed yet.
 
 This is a **dataset-agnostic, config-driven research harness**. It does not
-contain any NYC-specific column names, target names, feature counts, scoring
+contain any event-specific column names, target names, feature counts, scoring
 weights, or submission rules. Every event-specific value lives in
 `data/event_spec.py` and is currently `None` or a `"TODO"` string.
 
@@ -16,10 +16,10 @@ weights, or submission rules. Every event-specific value lives in
    called without real `data` supplied by the caller. Nothing here invents
    numbers.
 5. Metric formulas (CORR/AIMC/NCORR/blended) are **not implemented** — they
-   raise `NotImplementedError` with a `TODO: confirm against NYC event
+   raise `NotImplementedError` with a `TODO: confirm against event event
    specification` message until we've verified the real formulas.
 
-## How this becomes usable the moment NYC data arrives
+## How this becomes usable the moment event data arrives
 
 1. Fill in `data/event_spec.py` from the confirmed EVENT SPEC (see the
    checklist we built) — target name, horizon, feature list, missingness

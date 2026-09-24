@@ -6,7 +6,7 @@ feature set / size / types are known, this registry can be extended without
 touching the runner or branch files - that's the point of registering by
 name rather than hardcoding model construction everywhere.
 
-No model here has been tuned to any NYC-specific data, because none exists
+No model here has been tuned to any event-specific data, because none exists
 yet in this codebase.
 """
 

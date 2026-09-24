@@ -2,10 +2,10 @@
 Scoring metric interface.
 
 CRITICAL: None of the formulas below are implemented. Every function raises
-NotImplementedError until the exact NYC formulas have been confirmed against
+NotImplementedError until the exact event formulas have been confirmed against
 official event documentation. Do NOT fill these in from memory of a
 different tournament's formulas - your original instructions explicitly
-warn against assuming NYC uses the same scoring as Everesteer's general
+warn against assuming event uses the same scoring as Everesteer's general
 docs.
 
 Fill these in only after the EVENT SPEC checklist item "current CORR/AIMC/
@@ -18,32 +18,32 @@ import statistics
 
 
 def corr(predictions: Sequence[float], targets: Sequence[float]) -> float:
-    """TODO: confirm against NYC event specification.
+    """TODO: confirm against event event specification.
     Is this Pearson, Spearman, or a rank-based variant? Confirm before implementing."""
-    raise NotImplementedError("TODO: confirm CORR formula against NYC event specification")
+    raise NotImplementedError("TODO: confirm CORR formula against event event specification")
 
 
 def aimc(predictions: Sequence[float], targets: Sequence[float],
          benchmark: Sequence[float]) -> float:
-    """TODO: confirm against NYC event specification.
+    """TODO: confirm against event event specification.
     Likely measures incremental/orthogonal contribution beyond a benchmark -
     exact definition must be confirmed, not assumed from other tournaments."""
-    raise NotImplementedError("TODO: confirm AIMC formula against NYC event specification")
+    raise NotImplementedError("TODO: confirm AIMC formula against event event specification")
 
 
 def ncorr(predictions: Sequence[float], targets: Sequence[float],
           core_features: Optional[Sequence[Sequence[float]]] = None) -> float:
-    """TODO: confirm against NYC event specification.
+    """TODO: confirm against event event specification.
     Likely a neutralized correlation (post feature-exposure neutralization) -
     exact neutralization procedure must be confirmed."""
-    raise NotImplementedError("TODO: confirm NCORR formula against NYC event specification")
+    raise NotImplementedError("TODO: confirm NCORR formula against event event specification")
 
 
 def blended_score(component_scores: Dict[str, float], weights: Dict[str, float]) -> float:
-    """TODO: confirm against NYC event specification.
+    """TODO: confirm against event event specification.
     Requires the CURRENT metric_weights from EventSpec - do not hardcode
     weights guessed from another event or from historical documentation."""
-    raise NotImplementedError("TODO: confirm blend weights against NYC event specification")
+    raise NotImplementedError("TODO: confirm blend weights against event event specification")
 
 
 def prediction_correlation(pred_a: Sequence[float], pred_b: Sequence[float]) -> float:
