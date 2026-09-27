@@ -2,6 +2,10 @@
 
 Quant research for the Everesteer Quantitative Hedge Fund Hackathon competition.
 
+## Final result
+
+10th of 36 teams. Turned a $50 stake into $73.93 (+48%) over four live rounds.
+
 ## Docs
 - [HACKATHON.md](HACKATHON.md) — how the event works: data, scoring, staking, rounds
 - [PERFORMANCE.md](PERFORMANCE.md) — road to 10th place: round-by-round trades and P&L
