@@ -33,6 +33,8 @@ Round Score = clip(CORR + 2·AIMC + NCORR, ±1)
 - **AIMC (2× weight):** Covariance of centered target with your predictions *after removing the component along v1_sherpa*. Copying the benchmark scores ~0. Rewards signal the benchmark doesn't have.
 - **NCORR:** CORR after neutralizing predictions against a frozen train-selected core feature set. Rewards signal that isn't a linear function of core features.
 
+> **Post-event correction:** the live computation verified as `clip(1.0·CORR20 + 2.0·AIMC + 1.0·NCORR, ±1)` where CORR20 is plain rank correlation (no rank-gaussianizing or power transform on the live side). See `playbook.md`.
+
 Computed per exped, then averaged. Degenerate expeds score 0.
 
 ## Staking
