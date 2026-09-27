@@ -24,7 +24,9 @@ one-off outperformance.
 
 - **CORR:** rank-gaussianized, signed-power-1.5 correlation with the primary
   target per exped, then averaged. Rewards ranking tail instruments correctly
-  far more than the middle of the distribution.
+  far more than the middle of the distribution. (Post-event correction: the
+  live computation verified as plain rank correlation — see "Live rounds
+  (post-event, durable)" item 3.)
 - **AIMC:** covariance with the target after removing the prediction's
   alignment with the designated benchmark. Reproducing the benchmark scores
   ~0 here regardless of CORR.
