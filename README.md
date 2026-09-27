@@ -9,6 +9,7 @@ Quant research for the Everesteer Quantitative Hedge Fund Hackathon competition.
 ## Docs
 - [HACKATHON.md](HACKATHON.md) — how the event works: data, scoring, staking, rounds
 - [PERFORMANCE.md](PERFORMANCE.md) — road to 10th place: round-by-round trades and P&L
+- [playbook.md](playbook.md) — durable live-round lessons: verified scoring, practice/live inversion, speed-over-research mode
 
 ## Structure
 - `*.parquet` - Training and live round data
