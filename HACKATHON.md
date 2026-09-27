@@ -26,10 +26,10 @@ The data is realistic and obfuscated: features are renamed and binned, instrumen
 Per round, per model:
 
 ```
-Round Score = clip(CORR + 2·AIMC + NCORR, ±1)
+Round Score = clip(1.0·CORR20 + 2.0·AIMC + 1.0·NCORR, ±1)
 ```
 
-- **CORR:** Rank correlation with target_everest. Computed per exped after rank-gaussianizing predictions and applying a signed 1.5 power transform on both sides — tails matter more than the middle. Not Spearman.
+- **CORR20:** Plain rank correlation with target_everest, computed per exped. (Pre-event docs described a rank-gaussianizing + signed 1.5 power transform; the live computation verified without it.)
 - **AIMC (2× weight):** Covariance of centered target with your predictions *after removing the component along v1_sherpa*. Copying the benchmark scores ~0. Rewards signal the benchmark doesn't have.
 - **NCORR:** CORR after neutralizing predictions against a frozen train-selected core feature set. Rewards signal that isn't a linear function of core features.
 
