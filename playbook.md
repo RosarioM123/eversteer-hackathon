@@ -67,6 +67,19 @@ one-off outperformance.
    identify the weakest term relative to the leaders and iterate on that term
    specifically rather than re-tuning everything.
 
+## Live rounds (post-event, durable)
+
+1. Practice scores invert on live rounds. Negation won on practice (+0.17) and
+   lost live (-0.38); the live benchmark itself scored negative on practice.
+   For scored rounds always use training-direction (raw) models.
+2. Live-round mode: speed over research-sprint mode. Fast models, pick the top
+   three by worst-fold blend, submit. No lengthy reports.
+3. Verified scoring: clip(1.0 * CORR20 + 2.0 * AIMC + 1.0 * NCORR, [-1, 1]),
+   where CORR20 is plain rank correlation. Stake size changes payout only;
+   it never moves leaderboard rank.
+4. After each live round: pull the CORR / AIMC / NCORR breakdown, find the
+   weakest term relative to the leaders, and iterate on that term only.
+
 ## Reporting
 
 After each step, report what you did and the offline (or live, once scored)
