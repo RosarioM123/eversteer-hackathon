@@ -21,3 +21,5 @@ Quant research for the Everesteer Quantitative Hedge Fund Hackathon competition.
 - R2: Raw E1 (+$9.75)
 - R3: Raw E1 (+$5.83)
 - R4: Sherpa clone (+$7.67)
+
+See [playbook.md](playbook.md) for the durable live-round lessons (verified scoring formula, practice/live inversion).
